@@ -16,32 +16,4 @@ public class MaxAbsDiff {
         }
         return max - min;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   /* private static int maxAbsDiff(int[] arr) {
-        int min = arr[0];
-        int max = arr[0];
-        for(int i : arr){
-            min = Math.min(min,i);
-            max = Math.max(max,i);
-        }
-        return max - min;
-    }*/
 }
