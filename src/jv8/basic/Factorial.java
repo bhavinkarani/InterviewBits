@@ -26,48 +26,4 @@ public class Factorial {
         return fact;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*private static int factorialRecur(int input) {
-        if(input ==1){
-            return input;
-        }
-        return input * factorial(input-1);
-    }
-
-    private static int factorial(int input) {
-        int fact =1;
-        for(int i=input;i>0; i--){
-            fact = fact * i;
-        }
-        return fact;
-    }
-*/
 }
