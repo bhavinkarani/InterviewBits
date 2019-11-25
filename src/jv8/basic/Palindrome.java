@@ -3,7 +3,7 @@ package jv8.basic;
 import java.util.Scanner;
 
 public class Palindrome {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String input;
         Scanner in = new Scanner(System.in);
 
@@ -25,10 +25,7 @@ public class Palindrome {
 
     private static boolean isPalindrome(String input) {
         String reverse = reverse(input);
-        if(reverse.equals(input)){
-            return true;
-        }
-        return false;
+        return reverse.equals(input);
     }
 
     private static String reverse(String input) {
